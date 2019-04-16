@@ -1,5 +1,5 @@
 from collections import defaultdict
-from urllib2 import urlparse, unquote
+from urllib.parse import urlparse, unquote
 
 import oauth2
 import time
